@@ -1,0 +1,61 @@
+{
+  "baseline_distance_only": {
+    "MAE_all": 194.9,
+    "MAPE_all": 9.51,
+    "MAE_believable": 140.4,
+    "MAPE_believable": 7.03
+  },
+  "trend_plus_lightgbm": {
+    "MAE_all": 90.5,
+    "MAPE_all": 4.06,
+    "MAE_believable": 34.5,
+    "MAPE_believable": 1.51
+  },
+  "rolling_backtest": [
+    {
+      "test_month": "2025-07",
+      "MAE_all": 107.6,
+      "MAPE_all": 4.45,
+      "MAE_believable": 53.8,
+      "MAPE_believable": 2.29
+    },
+    {
+      "test_month": "2025-08",
+      "MAE_all": 169.6,
+      "MAPE_all": 7.68,
+      "MAE_believable": 120.9,
+      "MAPE_believable": 5.31
+    },
+    {
+      "test_month": "2025-09",
+      "MAE_all": 93.1,
+      "MAPE_all": 3.94,
+      "MAE_believable": 41.9,
+      "MAPE_believable": 1.85
+    },
+    {
+      "test_month": "2025-10",
+      "MAE_all": 88.3,
+      "MAPE_all": 4.19,
+      "MAE_believable": 27.5,
+      "MAPE_believable": 1.19
+    }
+  ],
+  "trend_percent_per_month": 0.67,
+  "feature_importance_share": {
+    "straight_miles": 0.368,
+    "distance": 0.242,
+    "equipment": 0.155,
+    "quote_signal": 0.103,
+    "quote_vs_day": 0.035,
+    "market_index": 0.033,
+    "weight": 0.024,
+    "quote_day_mean": 0.013,
+    "circuity": 0.006,
+    "pickup_lat": 0.006,
+    "delivery_lat": 0.006,
+    "pickup_lon": 0.004,
+    "delivery_lon": 0.004,
+    "day_of_week": 0.0
+  }
+}
