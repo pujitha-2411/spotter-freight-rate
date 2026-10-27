@@ -1,0 +1,7 @@
+pandas>=2.0,<3
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+scikit-learn>=1.4
+lightgbm>=4.0
+jupyter>=1.0
+reportlab>=4.0      # only for reports/make_report.py
